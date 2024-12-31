@@ -1,0 +1,121 @@
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.order-summary {
+  margin-bottom: 30px;
+}
+
+.order-summary .product {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.order-summary .product img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.order-summary .details {
+  flex: 1;
+}
+
+.order-summary .price {
+  text-align: right;
+}
+.checkout-form {
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.checkout-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-form form label {
+  margin: 10px 0 5px;
+}
+
+.checkout-form form input,
+.checkout-form form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.checkout-form form textarea {
+  height: 80px;
+}
+
+.payment-method {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.payment-method input[type="radio"] {
+  margin-right: 10px;
+}
+
+.payment-method label {
+  font-size: 1.1em;
+  color: #333;
+}
+
+#continue-btn, #cancel-btn {
+  background-color: rgb(59, 213, 59);
+  color: white;   
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  font-weight: bold; 
+  transition: all 0.3s ease; 
+}
+
+#continue-btn:hover, #cancel-btn:hover {
+  background-color: black;
+  color: white; 
+  transform: scale(1.05); 
+}
+
+#continue-btn:active, #cancel-btn:active {
+  background-color: #333; 
+  color: white; 
+  transform: scale(0.95); 
+}
+
+#dynamic-content {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fffbe6;
+  border: 1px solid #ffc107;
+  border-radius: 5px;
+  text-align: left;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#dynamic-content.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#dynamic-title {
+  font-size: 1.4em;
+  color: #3707e6;
+  margin-bottom: 10px;
+}
+
+#dynamic-text {
+  font-size: 1em;
+  color: #ddd;
+}
